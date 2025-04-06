@@ -64,8 +64,8 @@ Each algorithm is tested for:
 # Build & Run Instructions
 To compile, run, test, and check memory leaks, use the following make commands:
 
-make all = compiles the main program and creates the executable Main.
-make run = runs the compiled program (./Main).
-make test = compiles & runs the unit tests (based on doctest).
-make valgrind = runs the program with Valgrind to check for memory leaks.
-make clean = deletes the generated binaries (Main, Test).
+- make all = compiles the main program and creates the executable Main.
+- make run = runs the compiled program (./Main).
+- make test = compiles & runs the unit tests (based on doctest).
+- make valgrind = runs the program with Valgrind to check for memory leaks.
+- make clean = deletes the generated binaries (Main, Test).
